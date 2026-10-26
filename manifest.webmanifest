@@ -1,0 +1,25 @@
+{
+  "name": "N5 Biology Experimental Skills Lab",
+  "short_name": "N5 Skills Lab",
+  "description": "Experimental design, fieldwork and evidence skills practice for National 5 Biology.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f6fa",
+  "theme_color": "#0c1730",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,1855 @@
+{
+  "title": "N5 Biology Experimental Skills Lab",
+  "basis": "Original practice questions informed by 2026–27 course specification and official 2025 report; not reproduced past-paper questions.",
+  "skills": [
+    {
+      "id": "aim",
+      "title": "Writing aims",
+      "icon": "target",
+      "subtitle": "State what changes and what is measured."
+    },
+    {
+      "id": "variables",
+      "title": "Identifying variables",
+      "icon": "sliders-horizontal",
+      "subtitle": "Separate independent, dependent and controlled variables."
+    },
+    {
+      "id": "controls",
+      "title": "Using controls",
+      "icon": "shield-check",
+      "subtitle": "Choose a meaningful comparison without treatment."
+    },
+    {
+      "id": "validity",
+      "title": "Validity",
+      "icon": "check-check",
+      "subtitle": "Spot factors that could make a test unfair."
+    },
+    {
+      "id": "reliability",
+      "title": "Reliability",
+      "icon": "repeat",
+      "subtitle": "Understand repeats, consistency and anomalies."
+    },
+    {
+      "id": "graphs",
+      "title": "Presenting data",
+      "icon": "chart-no-axes-combined",
+      "subtitle": "Choose graphs, scales, labels and sensible tables."
+    },
+    {
+      "id": "conclusions",
+      "title": "Drawing conclusions",
+      "icon": "chart-line",
+      "subtitle": "Use evidence to answer the aim—not just list results."
+    },
+    {
+      "id": "evaluation",
+      "title": "Evaluating methods",
+      "icon": "wrench",
+      "subtitle": "Suggest specific changes that improve an investigation."
+    },
+    {
+      "id": "fieldwork",
+      "title": "Fieldwork skills",
+      "icon": "leaf",
+      "subtitle": "Practise quadrats, transects, pitfall traps and sampling."
+    },
+    {
+      "id": "evidence",
+      "title": "Scientific evidence",
+      "icon": "search-check",
+      "subtitle": "Decide what data can and cannot show."
+    }
+  ],
+  "visuals": {
+    "enzymes": {
+      "type": "table",
+      "title": "Results: catalase activity",
+      "head": [
+        "Temperature (°C)",
+        "Oxygen produced in 1 minute (cm³)"
+      ],
+      "rows": [
+        [
+          10,
+          2
+        ],
+        [
+          20,
+          7
+        ],
+        [
+          30,
+          13
+        ],
+        [
+          40,
+          11
+        ],
+        [
+          50,
+          1
+        ]
+      ]
+    },
+    "stomata": {
+      "type": "table",
+      "title": "Results: plant water loss",
+      "head": [
+        "Wind speed (m/s)",
+        "Mass lost in 20 minutes (g)"
+      ],
+      "rows": [
+        [
+          0,
+          0.4
+        ],
+        [
+          1,
+          0.8
+        ],
+        [
+          2,
+          1.4
+        ],
+        [
+          3,
+          2.1
+        ]
+      ]
+    },
+    "pondweed": {
+      "type": "graph",
+      "title": "Light distance and bubble count",
+      "x": "Distance from lamp (cm)",
+      "y": "Bubbles per minute",
+      "points": [
+        [
+          10,
+          28
+        ],
+        [
+          20,
+          16
+        ],
+        [
+          30,
+          9
+        ],
+        [
+          40,
+          5
+        ]
+      ],
+      "xmax": 40,
+      "ymax": 30
+    },
+    "yeast": {
+      "type": "table",
+      "title": "Average gas production",
+      "head": [
+        "Sugar concentration (%)",
+        "Carbon dioxide produced (cm³)"
+      ],
+      "rows": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          6,
+          28
+        ],
+        [
+          8,
+          27
+        ]
+      ]
+    },
+    "quadrat": {
+      "type": "table",
+      "title": "Daisies counted in equal-area quadrats",
+      "head": [
+        "Distance from path (m)",
+        "Number of daisies"
+      ],
+      "rows": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    "fertiliser": {
+      "type": "graph",
+      "title": "Mean plant height after 21 days",
+      "x": "Fertiliser added (g)",
+      "y": "Mean height (cm)",
+      "points": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "xmax": 8,
+      "ymax": 16
+    },
+    "germ": {
+      "type": "table",
+      "title": "Seeds germinated after 7 days",
+      "head": [
+        "Light exposure (hours/day)",
+        "Seeds germinated out of 20"
+      ],
+      "rows": [
+        [
+          0,
+          9
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          12,
+          15
+        ]
+      ]
+    },
+    "salinity": {
+      "type": "table",
+      "title": "Change in potato mass",
+      "head": [
+        "Salt solution (%)",
+        "Change in mass (%)"
+      ],
+      "rows": [
+        [
+          0,
+          14
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          -8
+        ]
+      ]
+    },
+    "pH": {
+      "type": "graph",
+      "title": "Amylase activity at different pH",
+      "x": "pH",
+      "y": "Clear area diameter (mm)",
+      "points": [
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          2
+        ]
+      ],
+      "xmin": 3,
+      "xmax": 11,
+      "ymax": 30
+    },
+    "litter": {
+      "type": "table",
+      "title": "Woodlice in two locations",
+      "head": [
+        "Site",
+        "Woodlice counted"
+      ],
+      "rows": [
+        [
+          "Under logs",
+          18
+        ],
+        [
+          "Open grass",
+          3
+        ]
+      ]
+    },
+    "repeat": {
+      "type": "table",
+      "title": "Seedling height after 10 days",
+      "head": [
+        "Trial",
+        "Height (cm)"
+      ],
+      "rows": [
+        [
+          1,
+          8.1
+        ],
+        [
+          2,
+          8.0
+        ],
+        [
+          3,
+          13.4
+        ],
+        [
+          4,
+          8.2
+        ]
+      ]
+    },
+    "replicates": {
+      "type": "table",
+      "title": "Three repeats per treatment",
+      "head": [
+        "Treatment",
+        "Repeat 1",
+        "Repeat 2",
+        "Repeat 3"
+      ],
+      "rows": [
+        [
+          "A",
+          12,
+          11,
+          13
+        ],
+        [
+          "B",
+          20,
+          19,
+          21
+        ]
+      ]
+    },
+    "transp": {
+      "type": "table",
+      "title": "Water loss over 20 minutes",
+      "head": [
+        "Treatment",
+        "Mass lost (g)"
+      ],
+      "rows": [
+        [
+          "Leaves present",
+          2.4
+        ],
+        [
+          "Leaves removed",
+          0.3
+        ]
+      ]
+    },
+    "test": {
+      "type": "table",
+      "title": "Antimicrobial disc results",
+      "head": [
+        "Disc",
+        "Clear-zone diameter (mm)"
+      ],
+      "rows": [
+        [
+          "Water",
+          0
+        ],
+        [
+          "Extract A",
+          6
+        ],
+        [
+          "Extract B",
+          14
+        ]
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "aim-001",
+      "skill": "aim",
+      "context": "Enzymes",
+      "stem": "A class changes water-bath temperature and measures how much oxygen catalase produces in one minute. Which is the clearest aim?",
+      "options": [
+        "To investigate catalase and oxygen.",
+        "To find the best temperature for enzymes.",
+        "To investigate the effect of temperature on the volume of oxygen produced by catalase in one minute.",
+        "To investigate the effect of oxygen on water temperature."
+      ],
+      "correct": 2,
+      "explanation": "The aim names the independent variable (temperature) and the dependent measurement (volume of oxygen in a fixed time).",
+      "hint": "Find the option naming both what is changed and what is measured.",
+      "visual": "enzymes",
+      "level": 1,
+      "pitfall": "The other aims are vague, reverse the variables or fail to say what was measured."
+    },
+    {
+      "id": "aim-002",
+      "skill": "aim",
+      "context": "Ecology",
+      "stem": "Pupils place equal-size quadrats at different distances from a footpath and count daisies. Which aim matches the method?",
+      "options": [
+        "To investigate how distance from a footpath affects the number of daisies per quadrat.",
+        "To investigate which flower is the prettiest near a path.",
+        "To investigate whether daisies like paths.",
+        "To measure the distance along a path."
+      ],
+      "correct": 0,
+      "explanation": "The aim links distance from the path (independent variable) to daisy count in equal-area quadrats (dependent variable).",
+      "hint": "Think about the quantity deliberately varied and the quantity counted.",
+      "visual": "quadrat",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "aim-003",
+      "skill": "aim",
+      "context": "Osmosis",
+      "stem": "A learner puts identical potato cylinders in different salt concentrations and records percentage change in mass. Choose the most precise aim.",
+      "options": [
+        "To see what happens to potatoes.",
+        "To investigate how different potatoes affect salt concentration.",
+        "To measure mass using a balance.",
+        "To investigate the effect of salt concentration on the percentage change in potato mass."
+      ],
+      "correct": 3,
+      "explanation": "Salt concentration is changed; percentage change in mass is measured. The specific measurement matters.",
+      "hint": "An aim should not be just a method or equipment list.",
+      "visual": "salinity",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "aim-004",
+      "skill": "aim",
+      "context": "Photosynthesis",
+      "stem": "A student varies the distance of a lamp from pondweed and counts oxygen bubbles each minute. Which aim fits the actual method?",
+      "options": [
+        "To prove light causes photosynthesis.",
+        "To investigate the effect of distance from a lamp on the number of bubbles produced per minute by pondweed.",
+        "To investigate the effect of oxygen bubbles on the distance from a lamp.",
+        "To investigate pondweed growth after a month."
+      ],
+      "correct": 1,
+      "explanation": "The chosen aim specifies lamp distance and bubble count per minute; the method does not directly measure light intensity or growth.",
+      "hint": "Describe what is actually changed, not just the process you hope it represents.",
+      "visual": "pondweed",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "aim-005",
+      "skill": "aim",
+      "context": "Plant growth",
+      "stem": "A student adds 0, 2, 4, 6 or 8 g of fertiliser to identical pots, then measures mean plant height after 21 days. Best aim?",
+      "options": [
+        "To prove fertiliser improves all plant growth.",
+        "To see whether fertiliser is good.",
+        "To investigate how mass of fertiliser affects mean plant height after 21 days.",
+        "To compare plant species in different fields."
+      ],
+      "correct": 2,
+      "explanation": "The aim accurately names fertiliser mass and mean height after a set interval without presuming the outcome.",
+      "hint": "Avoid an aim that already states the result.",
+      "visual": "fertiliser",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "aim-006",
+      "skill": "aim",
+      "context": "Leaf water loss",
+      "stem": "An investigation changes wind speed and records how much mass a leafy shoot loses in 20 minutes. Which aim is assessable?",
+      "options": [
+        "To investigate the effect of wind speed on mass lost by a leafy shoot in 20 minutes.",
+        "To compare how much water is in different winds.",
+        "To increase water loss in plants.",
+        "To examine the movement of all substances through stems."
+      ],
+      "correct": 0,
+      "explanation": "The changed variable and measurable outcome are both clear.",
+      "hint": "Pick the one whose variables match the equipment and measurements.",
+      "visual": "stomata",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "aim-007",
+      "skill": "aim",
+      "context": "Microbiology",
+      "stem": "Equal discs soaked in different plant extracts are placed on a bacterial lawn; clear-zone diameter is measured. Which aim is appropriate?",
+      "options": [
+        "To prove plant extracts kill all bacteria.",
+        "To identify which plant is safest to eat.",
+        "To study bacteria in general.",
+        "To investigate the effect of extract type on the diameter of the clear zone around each disc."
+      ],
+      "correct": 3,
+      "explanation": "This describes what can actually be measured rather than claiming all bacteria were killed.",
+      "hint": "Distinguish a measured observation from an untested claim.",
+      "visual": "test",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "aim-008",
+      "skill": "aim",
+      "context": "Keeping one focus",
+      "stem": "A pupil tests the effect of pH on amylase and also tries to measure how temperature affects germination in the same investigation. Why might the suggested combined aim be weak?",
+      "options": [
+        "Every aim must include the name of an organism.",
+        "It combines two separate independent variables and two different dependent variables.",
+        "Aims must start with the word “prove”.",
+        "Aims should list every item of apparatus."
+      ],
+      "correct": 1,
+      "explanation": "A focused investigation has a clearly identifiable question; mixing unrelated changes and measurements makes the conclusion harder to link to the aim.",
+      "hint": "Consider whether one set of measurements could answer the whole aim.",
+      "visual": "pH",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "var-009",
+      "skill": "variables",
+      "context": "Plant transpiration",
+      "stem": "A student changes wind speed but keeps light intensity and leaf area the same. What is the independent variable?",
+      "options": [
+        "Water lost",
+        "Leaf area",
+        "Wind speed",
+        "Light intensity"
+      ],
+      "correct": 2,
+      "explanation": "Wind speed is deliberately varied. Water lost is the measured response.",
+      "hint": "Identify what the student deliberately changes.",
+      "visual": "stomata",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "var-010",
+      "skill": "variables",
+      "context": "Fertiliser",
+      "stem": "The mass of fertiliser is changed and mean seedling height is measured after 21 days. What is the dependent variable?",
+      "options": [
+        "Mean seedling height",
+        "Mass of fertiliser",
+        "Time at measurement",
+        "Volume of soil"
+      ],
+      "correct": 0,
+      "explanation": "Mean seedling height is the quantity recorded to see the effect of fertiliser.",
+      "hint": "The dependent variable is the outcome recorded.",
+      "visual": "fertiliser",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "var-011",
+      "skill": "variables",
+      "context": "Enzyme reaction",
+      "stem": "Temperature is varied and oxygen volume in one minute is measured. Which pair of variables should be kept constant?",
+      "options": [
+        "Temperature and oxygen volume",
+        "Type of catalase and hydrogen peroxide concentration",
+        "Temperature and rate of oxygen production",
+        "Oxygen volume and reaction rate"
+      ],
+      "correct": 1,
+      "explanation": "Using the same enzyme source and substrate concentration helps isolate temperature as the cause.",
+      "hint": "Choose two factors that could otherwise change the reaction and are not the variables being investigated.",
+      "visual": "enzymes",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "var-012",
+      "skill": "variables",
+      "context": "Osmosis",
+      "stem": "Potato cylinders are placed in various salt concentrations. Which is a sensible controlled variable?",
+      "options": [
+        "Percentage mass change",
+        "Salt concentration",
+        "Final mass after soaking",
+        "Length and diameter of potato cylinders"
+      ],
+      "correct": 3,
+      "explanation": "Equal-sized cylinders help ensure comparable results; salt concentration must change.",
+      "hint": "Look for something kept the same in every group.",
+      "visual": "salinity",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "var-013",
+      "skill": "variables",
+      "context": "Photosynthesis",
+      "stem": "Lamp distance is changed and pondweed bubbles per minute are counted. What is the dependent variable?",
+      "options": [
+        "Distance from lamp",
+        "Type of bulb",
+        "Number of bubbles per minute",
+        "Duration of the investigation"
+      ],
+      "correct": 2,
+      "explanation": "Bubbles per minute are counted as the outcome when lamp distance changes.",
+      "hint": "Ask which measurement provides the results.",
+      "visual": "pondweed",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "var-014",
+      "skill": "variables",
+      "context": "Effect of exercise",
+      "stem": "A pupil measures heart rate before exercise and after 1, 2 and 3 minutes of exercise. Which is the independent variable?",
+      "options": [
+        "Heart rate",
+        "Exercise duration",
+        "Number of heartbeats",
+        "Heart-rate increase"
+      ],
+      "correct": 1,
+      "explanation": "Exercise duration is deliberately varied; heart rate is measured.",
+      "hint": "Which condition is set to different values?",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "var-015",
+      "skill": "variables",
+      "context": "Field sampling",
+      "stem": "Quadrats of the same area are placed 1–5 m from a path. Which pair correctly identifies the independent and dependent variables?",
+      "options": [
+        "Daisy count; distance",
+        "Quadrat area; distance",
+        "Distance; quadrat area",
+        "Distance; daisy count"
+      ],
+      "correct": 3,
+      "explanation": "Distance from the path is varied and the number of daisies counted. Quadrat area is held constant.",
+      "hint": "Look at the order: changed variable first, measured outcome second.",
+      "visual": "quadrat",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "var-016",
+      "skill": "variables",
+      "context": "Accuracy of a comparison",
+      "stem": "Two groups compare plant growth under different colours of light. One group waters its plants twice as often. What else now varies?",
+      "options": [
+        "The amount of water supplied",
+        "The colour of light only",
+        "The way height is measured only",
+        "The species of plant, necessarily"
+      ],
+      "correct": 0,
+      "explanation": "Water availability varies alongside light colour, introducing another possible cause of any difference.",
+      "hint": "Look for a condition that should not change between groups.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-017",
+      "skill": "controls",
+      "context": "Yeast respiration",
+      "stem": "Yeast is given different sugar concentrations and gas production is recorded. What is the purpose of a 0% sugar set-up?",
+      "options": [
+        "To increase the rate of respiration",
+        "To act as a comparison with no added sugar",
+        "To ensure the gas volume is high",
+        "To increase the number of repeats"
+      ],
+      "correct": 1,
+      "explanation": "A set-up with no added sugar provides a comparison when the treatment is absent.",
+      "hint": "Think about what the 0% condition adds to the comparison.",
+      "visual": "yeast",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "con-018",
+      "skill": "controls",
+      "context": "Testing plant extract",
+      "stem": "A student tests whether a plant extract inhibits bacterial growth using paper discs. Which control is most suitable?",
+      "options": [
+        "A larger disc soaked in a concentrated extract",
+        "A disc with a different unknown extract",
+        "A disc soaked in the solvent only",
+        "A disc placed on a different species of bacteria"
+      ],
+      "correct": 2,
+      "explanation": "A solvent-only disc tests whether the solvent or paper itself causes a clear zone.",
+      "hint": "The control should omit the tested extract while leaving the other conditions comparable.",
+      "visual": "test",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-019",
+      "skill": "controls",
+      "context": "Photosynthesis and carbon dioxide",
+      "stem": "A plant leaf is placed in a container with carbon dioxide available. Which comparison best tests the effect of removing carbon dioxide?",
+      "options": [
+        "An identical leaf in the same conditions but with carbon dioxide absorbed",
+        "Another species of plant in bright light",
+        "The same leaf after several weeks of growth",
+        "An identical leaf at a different temperature"
+      ],
+      "correct": 0,
+      "explanation": "The comparison varies carbon dioxide availability while other conditions stay the same.",
+      "hint": "Aim for only one meaningful difference between the two set-ups.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-020",
+      "skill": "controls",
+      "context": "Enzymes",
+      "stem": "A pupil tests active amylase on starch and measures a clear zone. Which comparison best checks whether the enzyme is necessary?",
+      "options": [
+        "Use a stronger starch concentration and active enzyme",
+        "Use active enzyme at two temperatures",
+        "Use twice as much active enzyme",
+        "Use boiled amylase instead of active amylase while keeping other conditions constant"
+      ],
+      "correct": 3,
+      "explanation": "The boiled-enzyme comparison removes active enzyme activity while keeping the basic set-up similar.",
+      "hint": "Think of how to remove or inactivate the treatment of interest.",
+      "visual": "pH",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-021",
+      "skill": "controls",
+      "context": "Water loss from leaves",
+      "stem": "Leafy shoots lose mass in a wind experiment. Which set-up could help identify mass loss not caused by leaves?",
+      "options": [
+        "A larger leafy shoot in stronger wind",
+        "An otherwise similar set-up without leaves",
+        "A shoot with extra leaves in a sealed container",
+        "The same shoot with a different balance"
+      ],
+      "correct": 1,
+      "explanation": "A comparison without leaves gives a baseline for mass changes from the apparatus or other tissue.",
+      "hint": "A control removes the component whose role is being tested.",
+      "visual": "transp",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "con-022",
+      "skill": "controls",
+      "context": "Meaning of control",
+      "stem": "Which statement best describes the role of a control in an experiment?",
+      "options": [
+        "A set-up used to compare results when the treatment is not applied",
+        "A repeat of a treatment to calculate an average",
+        "The variable the researcher measures",
+        "A promise that all measurements are accurate"
+      ],
+      "correct": 0,
+      "explanation": "A control provides a comparison when the treatment is absent; it is not simply another repeat.",
+      "hint": "A control is a comparison, rather than a mathematical calculation.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "con-023",
+      "skill": "controls",
+      "context": "Testing fertiliser",
+      "stem": "A student compares how different quantities of fertiliser affect seedlings. What is a suitable control?",
+      "options": [
+        "A pot given 8 g of fertiliser",
+        "A pot containing a different plant species",
+        "An otherwise identical pot given no fertiliser",
+        "A pot kept in darkness"
+      ],
+      "correct": 2,
+      "explanation": "The no-fertiliser pot is the untreated comparison; conditions such as species and light should match.",
+      "hint": "Choose the untreated group, not a group with several changes.",
+      "visual": "fertiliser",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "val-024",
+      "skill": "validity",
+      "context": "Enzymes at different temperatures",
+      "stem": "A test changes the temperature but also uses a different concentration of hydrogen peroxide each time. What is the main problem?",
+      "options": [
+        "The experiment has too many repeats",
+        "The dependent variable is being measured",
+        "The investigation becomes more reliable",
+        "The investigation is less valid because two factors could affect oxygen production"
+      ],
+      "correct": 3,
+      "explanation": "Substrate concentration is another possible cause of changed oxygen output, so temperature is not isolated.",
+      "hint": "Ask whether the measured effect can be attributed to the intended changed variable.",
+      "visual": "enzymes",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "val-025",
+      "skill": "validity",
+      "context": "Valid or reliable?",
+      "stem": "A student tests the effect of fertiliser on height, but different groups get different amounts of water. Which term best describes the problem?",
+      "options": [
+        "Validity",
+        "Reliability only",
+        "Accuracy of the ruler only",
+        "Graph scale"
+      ],
+      "correct": 0,
+      "explanation": "Water is a confounding variable; validity is weakened because observed differences may not be due to fertiliser.",
+      "hint": "Think about whether another variable could explain the effect.",
+      "visual": "fertiliser",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "val-026",
+      "skill": "validity",
+      "context": "A poor comparison",
+      "stem": "Seedlings in light are compared with seedlings in darkness. The light group is at 25°C and the dark group at 15°C. Which improvement best increases validity?",
+      "options": [
+        "Repeat both groups with the same temperature",
+        "Use taller seedlings only in the light group",
+        "Record height less frequently",
+        "Add an unrelated third plant species"
+      ],
+      "correct": 0,
+      "explanation": "Controlling temperature makes it more likely that differences result from light rather than temperature.",
+      "hint": "Keep every other influential condition alike.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "val-027",
+      "skill": "validity",
+      "context": "Pitfall traps",
+      "stem": "A pupil compares insect numbers in grass and woodland. Traps in grass are left for 2 hours, traps in woodland for 24 hours. Why is the comparison weak?",
+      "options": [
+        "Insects are always absent from grass",
+        "Longer exposure can alter how many are caught independent of habitat",
+        "Pitfall traps cannot sample invertebrates",
+        "Repeating the investigation would automatically remove the difference in duration"
+      ],
+      "correct": 1,
+      "explanation": "Different sampling durations are a confounding factor, so habitat is not isolated.",
+      "hint": "Look for unequal sampling effort.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "val-028",
+      "skill": "validity",
+      "context": "Osmosis",
+      "stem": "Some potato cylinders are twice as thick as others when salt concentration is tested. Which change makes the test more valid?",
+      "options": [
+        "Use a larger range of salt concentrations only",
+        "Use a thermometer rather than a balance",
+        "Use cylinders of the same dimensions",
+        "Take the mean of two unequal cylinders"
+      ],
+      "correct": 2,
+      "explanation": "Matching cylinder dimensions controls surface area and mass differences that could alter the outcome.",
+      "hint": "Isolate salt concentration by standardising the sample size.",
+      "visual": "salinity",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "val-029",
+      "skill": "validity",
+      "context": "Definition check",
+      "stem": "Which statement best describes experimental validity in National 5 Biology?",
+      "options": [
+        "Taking as many photographs as possible",
+        "Obtaining identical results in repeated trials",
+        "Using a large number of different independent variables",
+        "Controlling other variables so an effect is likely to be due to the variable changed"
+      ],
+      "correct": 3,
+      "explanation": "Validity concerns whether the effect can reasonably be linked to the variable being investigated.",
+      "hint": "Validity asks: was it a fair investigation of that variable?",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "val-030",
+      "skill": "validity",
+      "context": "Fieldwork design",
+      "stem": "A study compares daisy numbers 1–5 m from a path but uses 1 m² quadrats near the path and 0.25 m² quadrats farther away. What should change?",
+      "options": [
+        "Use quadrats of equal area at every distance",
+        "Count a different plant near the path",
+        "Place all quadrats at 1 m",
+        "Change the field site after each count"
+      ],
+      "correct": 0,
+      "explanation": "Different quadrat areas create an unfair comparison of raw counts. Equal area allows better comparison.",
+      "hint": "Look at sampling effort and area, not just where the counts were taken.",
+      "visual": "quadrat",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "val-031",
+      "skill": "validity",
+      "context": "Study of exercise",
+      "stem": "A study compares heart rate before and after exercise. Some participants drink caffeine and others do not. What conclusion is best?",
+      "options": [
+        "Caffeine proves exercise never affects heart rate",
+        "Caffeine may influence heart rate, weakening validity unless controlled",
+        "More participants would guarantee caffeine has no effect",
+        "Using the same stopwatch is the only necessary control"
+      ],
+      "correct": 1,
+      "explanation": "Caffeine is another factor that may affect heart rate; it should be controlled or accounted for.",
+      "hint": "Identify other factors affecting the recorded outcome.",
+      "visual": "",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-032",
+      "skill": "reliability",
+      "context": "Repeated growth measurements",
+      "stem": "Repeated plant heights for one treatment are 8.1, 8.0, 13.4 and 8.2 cm. Which observation needs checking?",
+      "options": [
+        "8.0 cm",
+        "8.1 cm",
+        "13.4 cm",
+        "8.2 cm"
+      ],
+      "correct": 2,
+      "explanation": "13.4 cm is far from the other readings and may be anomalous; investigate before deciding what to do with it.",
+      "hint": "Look for the value that is inconsistent with the others.",
+      "visual": "repeat",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-033",
+      "skill": "reliability",
+      "context": "Reliable results",
+      "stem": "Which set of repeated oxygen readings is most consistent?",
+      "options": [
+        "4, 12, 19 cm³",
+        "11, 12, 11 cm³",
+        "2, 18, 10 cm³",
+        "8, 15, 21 cm³"
+      ],
+      "correct": 1,
+      "explanation": "The second set varies by just 1 cm³, indicating good consistency between repeats.",
+      "hint": "Reliability is about how similar repeated readings are.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-034",
+      "skill": "reliability",
+      "context": "Improve an enzyme experiment",
+      "stem": "A student obtains one oxygen-volume measurement at every temperature. What would best improve reliability?",
+      "options": [
+        "Use a completely different reaction at each temperature",
+        "Change the concentration every time",
+        "Replace the independent variable",
+        "Repeat at every temperature and examine whether values are consistent"
+      ],
+      "correct": 3,
+      "explanation": "Repeating each condition allows consistency and anomalies to be assessed.",
+      "hint": "More repetitions under the same conditions are helpful.",
+      "visual": "enzymes",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-035",
+      "skill": "reliability",
+      "context": "Validity versus reliability",
+      "stem": "A fair investigation is repeated three times at each temperature but gives very different readings each time. Which statement is justified?",
+      "options": [
+        "The repeated results are not very reliable",
+        "Controlling variables guarantees reliable results",
+        "Different results prove that temperature has no effect",
+        "Repeats always make the original results more valid"
+      ],
+      "correct": 0,
+      "explanation": "Validity and reliability are different; large disagreement between repeats suggests poor reliability even when variables are controlled.",
+      "hint": "Consider consistency rather than whether the experiment is fair.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-036",
+      "skill": "reliability",
+      "context": "Handling anomalies",
+      "stem": "Four repeats give 8.1, 8.0, 13.4 and 8.2 cm. What is the best next step?",
+      "options": [
+        "Always delete 13.4 without comment",
+        "Change 13.4 to 8.4 to fit the pattern",
+        "Check the recorded value and method, and repeat if appropriate",
+        "Report only the highest value"
+      ],
+      "correct": 2,
+      "explanation": "An unusual measurement should be investigated, not silently removed or altered.",
+      "hint": "Scientists should not change recorded data to fit an expected pattern.",
+      "visual": "repeat",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-037",
+      "skill": "reliability",
+      "context": "Replicates",
+      "stem": "Two treatments have repeats of A: 12, 11, 13 and B: 20, 19, 21. What do the repeats show?",
+      "options": [
+        "Both treatments have identical results",
+        "Within each treatment the values are quite consistent",
+        "Treatment B proves the result will be identical for any species",
+        "The experiment is invalid because the measurements differ slightly"
+      ],
+      "correct": 1,
+      "explanation": "Each treatment gives a narrow spread of values, indicating consistent results for those repeats.",
+      "hint": "Small differences among repeats are normal; assess their spread.",
+      "visual": "replicates",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-038",
+      "skill": "reliability",
+      "context": "Sampling animals",
+      "stem": "A field study uses one pitfall trap for one afternoon. Which change is most likely to improve reliability?",
+      "options": [
+        "Change the habitat every hour",
+        "Use a trap without recording its location",
+        "Count only the largest animal",
+        "Use multiple comparable traps and repeat sampling"
+      ],
+      "correct": 3,
+      "explanation": "Replicate traps and repeat visits help identify whether counts are consistent instead of relying on one observation.",
+      "hint": "Consider increasing the number of comparable observations.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "rel-039",
+      "skill": "reliability",
+      "context": "Precise language",
+      "stem": "Which statement correctly distinguishes reliability from validity?",
+      "options": [
+        "Reliability concerns consistency in repeats; validity concerns controlling other variables",
+        "Reliability concerns how fair the test is; validity is only its sample size",
+        "Reliability is the size of the measured effect; validity is whether graph axes are labelled",
+        "Both words mean exactly the same thing"
+      ],
+      "correct": 0,
+      "explanation": "The course specification explicitly separates consistent repeated results from controlling other variables.",
+      "hint": "One term relates to repeats; the other to isolating the cause.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-040",
+      "skill": "graphs",
+      "context": "Enzyme temperature results",
+      "stem": "When graphing temperature against oxygen volume, which is the most appropriate horizontal axis?",
+      "options": [
+        "Volume of oxygen (cm³)",
+        "Time taken to clean glassware (s)",
+        "Temperature (°C)",
+        "Number of enzyme molecules"
+      ],
+      "correct": 2,
+      "explanation": "The independent variable, temperature, belongs on the x-axis and needs its unit.",
+      "hint": "The independent variable normally goes along the horizontal axis.",
+      "visual": "enzymes",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-041",
+      "skill": "graphs",
+      "context": "Graph selection",
+      "stem": "A pupil measures oxygen produced at temperatures of 10, 20, 30, 40 and 50°C. Which graph is most suitable for displaying the relationship?",
+      "options": [
+        "Line graph or plotted points joined to show the continuous relationship",
+        "Pie chart of oxygen volume by month",
+        "A bar chart with no numerical scale",
+        "A pictogram showing different enzymes"
+      ],
+      "correct": 0,
+      "explanation": "Temperature is continuous, so an x–y graph is suitable for showing the relationship.",
+      "hint": "Think whether the independent variable is numerical and continuous.",
+      "visual": "enzymes",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-042",
+      "skill": "graphs",
+      "context": "Categories",
+      "stem": "A class compares numbers of woodlice caught at three named sites: garden, playground and woodland. Which graph is usually most suitable?",
+      "options": [
+        "Line graph treating sites as continuous numbers",
+        "Pie chart that must total 100%",
+        "Scattergraph of temperature only",
+        "Bar chart with each site as a category"
+      ],
+      "correct": 3,
+      "explanation": "Named sampling sites are separate categories, so a bar chart is a clear display.",
+      "hint": "Ask whether the independent variable consists of named categories.",
+      "visual": "litter",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-043",
+      "skill": "graphs",
+      "context": "Table headings",
+      "stem": "A student records reaction time in seconds at different temperatures in °C. Which pair of table headings is clear?",
+      "options": [
+        "Temperature | Reaction",
+        "Temperature (°C) | Reaction time (s)",
+        "Temperature in seconds | Reaction time in °C",
+        "Trial | Numbers"
+      ],
+      "correct": 1,
+      "explanation": "Both headings name the quantity and give the relevant units.",
+      "hint": "Include the measured quantity and unit in each numerical heading.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-044",
+      "skill": "graphs",
+      "context": "Graph labels",
+      "stem": "A graph plots lamp distance (cm) against bubbles per minute. Which y-axis label is correct?",
+      "options": [
+        "Distance (cm)",
+        "Photosynthesis",
+        "Number of bubbles per minute",
+        "Light (minutes)"
+      ],
+      "correct": 2,
+      "explanation": "Bubble production per minute is the dependent measurement and belongs on the vertical axis.",
+      "hint": "The vertical axis should identify what was measured, with appropriate units.",
+      "visual": "pondweed",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-045",
+      "skill": "graphs",
+      "context": "Reading a plotted trend",
+      "stem": "Look at the graph of lamp distance and bubble production. What happens to bubble count as the lamp moves from 10 to 40 cm?",
+      "options": [
+        "It decreases from about 28 to 5 per minute",
+        "It rises from about 5 to 28 per minute",
+        "It stays at 28 per minute",
+        "The graph contains no information about bubble count"
+      ],
+      "correct": 0,
+      "explanation": "The plotted points show fewer bubbles counted per minute at greater distances from the lamp.",
+      "hint": "Read values at the first and last x-axis positions.",
+      "visual": "pondweed",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-046",
+      "skill": "graphs",
+      "context": "Scaling",
+      "stem": "A class plots plant heights between 0 and 16 cm. Which vertical axis scale is easiest to use accurately?",
+      "options": [
+        "0, 3, 7, 11, 16 at equally spaced grid lines",
+        "0, 1, 4, 9, 16 at equally spaced grid lines",
+        "16, 14, 12, 10, 8 with no units",
+        "0, 4, 8, 12, 16 at equally spaced grid lines"
+      ],
+      "correct": 3,
+      "explanation": "Equal grid distances must represent equal numerical intervals on a linear scale.",
+      "hint": "Check the difference between consecutive labels.",
+      "visual": "fertiliser",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "gra-047",
+      "skill": "graphs",
+      "context": "Displaying repeats",
+      "stem": "At each temperature pupils measure gas volume three times. Which table layout helps compare results and calculate a mean?",
+      "options": [
+        "Temperature, a single unexplained number",
+        "Temperature, repeat 1, repeat 2, repeat 3, mean (with units)",
+        "Only the final mean and no temperature values",
+        "A list of times when pupils used the equipment"
+      ],
+      "correct": 1,
+      "explanation": "Showing each repeat and the mean under clear headings makes the data transparent and allows consistency to be checked.",
+      "hint": "Keep the independent variable and each measurement visible.",
+      "visual": "replicates",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-048",
+      "skill": "conclusions",
+      "context": "Fertiliser and plant height",
+      "stem": "Use the graph. Which conclusion is supported by the fertiliser results?",
+      "options": [
+        "Fertiliser always makes plants taller at any amount",
+        "The best growth occurs at precisely 5 g",
+        "Mean height increases up to 4 g, levels off at 6 g, then decreases at 8 g",
+        "All plants died when 8 g was applied"
+      ],
+      "correct": 2,
+      "explanation": "The graph shows 6, 10, 14, 14 and 11 cm as fertiliser mass increases; the conclusion follows the entire pattern.",
+      "hint": "Check whether the statement accounts for every data point, including the downturn.",
+      "visual": "fertiliser",
+      "level": 2,
+      "pitfall": "Avoid extrapolating beyond the tested values or ignoring parts of the trend."
+    },
+    {
+      "id": "con-049",
+      "skill": "conclusions",
+      "context": "Enzyme temperature results",
+      "stem": "Use the table. Which conclusion is the most defensible?",
+      "options": [
+        "Catalase produces the greatest measured oxygen volume at 30°C among the tested temperatures",
+        "Catalase is completely inactive above 50°C",
+        "Catalase always works best at 37°C",
+        "Temperature has no effect on gas production"
+      ],
+      "correct": 0,
+      "explanation": "Of the temperatures shown, 30°C gives the highest measured volume, 13 cm³. Nothing here establishes behaviour outside the tested range.",
+      "hint": "Make a claim limited to the actual measurements.",
+      "visual": "enzymes",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-050",
+      "skill": "conclusions",
+      "context": "Potato osmosis",
+      "stem": "Use the data. What conclusion best relates to the investigation of salt concentration and percentage change in potato mass?",
+      "options": [
+        "Potatoes cannot take in water",
+        "Higher salt concentration was associated with a lower percentage change in mass, from +14% at 0% to −8% at 6%",
+        "All potatoes lose the same percentage mass",
+        "The balance must have been broken"
+      ],
+      "correct": 1,
+      "explanation": "The recorded mass changes become progressively lower as salt concentration rises, with a switch from gain to loss.",
+      "hint": "Describe the overall trend, including the direction of change.",
+      "visual": "salinity",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-051",
+      "skill": "conclusions",
+      "context": "Plant water loss",
+      "stem": "The table shows wind speed and mass lost by a shoot. Which conclusion answers the aim?",
+      "options": [
+        "The wind speeds tested were 0, 1, 2 and 3 m/s",
+        "The heaviest shoot was 2.1 g",
+        "Wind makes plants stronger",
+        "Over the tested range, increasing wind speed was associated with increased mass loss"
+      ],
+      "correct": 3,
+      "explanation": "Mass loss rises from 0.4 to 2.1 g as wind speed rises from 0 to 3 m/s; the claim directly connects the variables.",
+      "hint": "A conclusion connects the changed variable to the measured response.",
+      "visual": "stomata",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "con-052",
+      "skill": "conclusions",
+      "context": "Yeast and sugar",
+      "stem": "Use the table. Which conclusion is supported by the results?",
+      "options": [
+        "Sugar concentration had no effect",
+        "8% sugar caused no gas production",
+        "Gas production increased to 6% sugar then was slightly lower at 8%",
+        "Higher sugar concentration always gives a higher gas volume"
+      ],
+      "correct": 2,
+      "explanation": "Gas volume increases from 0 to 28 cm³ at 6%, then falls slightly to 27 cm³ at 8%.",
+      "hint": "Check for a peak or reversal instead of assuming a straight-line trend.",
+      "visual": "yeast",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-053",
+      "skill": "conclusions",
+      "context": "Daisy distribution",
+      "stem": "Use the quadrat results. Which conclusion is best?",
+      "options": [
+        "Daisy count increased with distance from the path over the 1–5 m range",
+        "All flowers grow better away from every path",
+        "Daisies completely avoid the footpath",
+        "The daisy count was always 10"
+      ],
+      "correct": 0,
+      "explanation": "The number increases from 2 daisies at 1 m to 10 at 5 m; that is the pattern measured here.",
+      "hint": "Stay within the studied distances and species.",
+      "visual": "quadrat",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "con-054",
+      "skill": "conclusions",
+      "context": "Interpreting data",
+      "stem": "What makes a scientific conclusion stronger than merely restating the results?",
+      "options": [
+        "Repeating all the raw numbers without interpretation",
+        "Making a claim about the relationship investigated, supported by the evidence",
+        "Adding personal opinions about what should have happened",
+        "Ignoring results that differ from the prediction"
+      ],
+      "correct": 1,
+      "explanation": "The conclusion answers the aim and interprets the trend using evidence, rather than simply listing observations.",
+      "hint": "Think about the difference between describing values and answering the question investigated.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "con-055",
+      "skill": "conclusions",
+      "context": "Unexpected result",
+      "stem": "Plants were taller with 4 g fertiliser than with 0 g, but height fell at 8 g. Which conclusion avoids an overclaim?",
+      "options": [
+        "Every extra gram of fertiliser causes more growth",
+        "Fertiliser has no effect on height",
+        "The trial proves plants are poisoned above 4 g",
+        "Moderate fertiliser amounts increased mean height, but the largest tested amount reduced it compared with 4–6 g"
+      ],
+      "correct": 3,
+      "explanation": "The conclusion recognises the increase and decline without claiming a mechanism that was not tested.",
+      "hint": "Your conclusion should cover increases and decreases in the results.",
+      "visual": "fertiliser",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "con-056",
+      "skill": "conclusions",
+      "context": "Correlation and causation",
+      "stem": "A school survey finds pupils who sleep more hours tend to score higher in tests. Which conclusion is justified?",
+      "options": [
+        "Extra sleep alone has been proved to cause better marks",
+        "The survey measured students’ brain cells",
+        "The data show an association, but other factors might also affect scores",
+        "Every pupil who sleeps fewer hours will fail"
+      ],
+      "correct": 2,
+      "explanation": "A survey showing association cannot by itself isolate sleep from other possible influences.",
+      "hint": "Ask whether the study controlled other explanations.",
+      "visual": "",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-057",
+      "skill": "evaluation",
+      "context": "Improving an aim-linked test",
+      "stem": "A pupil compares temperature and catalase activity but tests only 10°C and 50°C. Which improvement would best help identify an optimum in between?",
+      "options": [
+        "Add more temperatures between 10 and 50°C",
+        "Change enzyme source at each temperature",
+        "Use only the 50°C result",
+        "Remove the temperature labels from the graph"
+      ],
+      "correct": 0,
+      "explanation": "Using more values within the tested range could reveal where the peak occurs.",
+      "hint": "Look for a change that fills a gap in the independent variable values.",
+      "visual": "enzymes",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-058",
+      "skill": "evaluation",
+      "context": "Reliability improvement",
+      "stem": "A study of daisies uses one quadrat at every distance. Which improvement specifically helps judge consistency?",
+      "options": [
+        "Reduce the size of the quadrat for distant locations",
+        "Use repeated quadrats at each distance and compare counts",
+        "Change the plant species for each quadrat",
+        "Record the results without the distances"
+      ],
+      "correct": 1,
+      "explanation": "Repeated samples at each distance allow the spread and reliability of counts to be assessed.",
+      "hint": "Look for repeats under comparable conditions.",
+      "visual": "quadrat",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-059",
+      "skill": "evaluation",
+      "context": "Making a fair comparison",
+      "stem": "A lamp-distance experiment moves the lamp but the water temperature rises near the lamp. Which specific change improves validity?",
+      "options": [
+        "Use a different species of pondweed at every distance",
+        "Count only the last minute at the closest distance",
+        "Increase water temperature as lamp distance increases",
+        "Use an appropriate heat barrier or thermostatically control water temperature"
+      ],
+      "correct": 3,
+      "explanation": "The improvement reduces a temperature difference that might otherwise affect bubble production.",
+      "hint": "What unwanted variable is changing alongside distance?",
+      "visual": "pondweed",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-060",
+      "skill": "evaluation",
+      "context": "Weak evaluation statement",
+      "stem": "Which is the most useful evaluation of a study with one reading at each pH?",
+      "options": [
+        "It was a nice experiment",
+        "It should be better next time",
+        "Repeat measurements at every pH so the consistency of the results can be assessed",
+        "Everything should be controlled somehow"
+      ],
+      "correct": 2,
+      "explanation": "A useful evaluation identifies a limitation and a specific, linked improvement.",
+      "hint": "Look for a practical change and a clear scientific reason.",
+      "visual": "pH",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-061",
+      "skill": "evaluation",
+      "context": "Measuring bubbles",
+      "stem": "A student counts gas bubbles to estimate pondweed photosynthesis. Which limitation is scientifically relevant?",
+      "options": [
+        "Bubbles may differ in size, so number of bubbles is not exactly the gas volume",
+        "All gas bubbles have equal volumes by definition",
+        "Counting bubbles is a direct measurement of sugar made",
+        "Lamp distance cannot be measured with a ruler"
+      ],
+      "correct": 0,
+      "explanation": "Different-sized bubbles can contain different gas volumes; counting them is only a proxy for gas production.",
+      "hint": "Consider whether the counting method measures the intended quantity directly.",
+      "visual": "pondweed",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-062",
+      "skill": "evaluation",
+      "context": "Sampling field animals",
+      "stem": "Pitfall traps are used in two habitats. Which improvement most directly addresses unequal sampling effort?",
+      "options": [
+        "Use different trap types in each habitat",
+        "Keep trap number and time deployed the same in each habitat",
+        "Change bait in just one habitat",
+        "Only count large invertebrates in woodland"
+      ],
+      "correct": 1,
+      "explanation": "Equal trap numbers and deployment times make the comparison more valid.",
+      "hint": "Make the sampling conditions alike.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-063",
+      "skill": "evaluation",
+      "context": "Specific change vs vague change",
+      "stem": "A pupil says “use better equipment” to improve a transpiration experiment. Which suggested change is more useful?",
+      "options": [
+        "Use expensive equipment",
+        "Move plants to a different classroom each time",
+        "Use more worksheets",
+        "Use the same calibrated balance to measure mass change at each time point"
+      ],
+      "correct": 3,
+      "explanation": "The revised suggestion identifies an actual measuring method that could increase consistency.",
+      "hint": "An evaluation should state what to change, not just that it should be “better”.",
+      "visual": "stomata",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "eva-064",
+      "skill": "evaluation",
+      "context": "Conclusion support",
+      "stem": "A study reports a strong growth effect but no control was used. What is an appropriate evaluation?",
+      "options": [
+        "The effect must be caused by the treatment",
+        "A graph alone fixes the missing control",
+        "Include an untreated control to show the difference compared with no treatment",
+        "Repeating the conclusion makes it more valid"
+      ],
+      "correct": 2,
+      "explanation": "An untreated control gives a baseline against which the observed treatment effect can be judged.",
+      "hint": "Think about what comparison is missing.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-065",
+      "skill": "fieldwork",
+      "context": "Sampling plants",
+      "stem": "Which equipment is most appropriate for estimating daisy abundance in grassland?",
+      "options": [
+        "A quadrat",
+        "A pitfall trap",
+        "A respirometer",
+        "A microscope slide"
+      ],
+      "correct": 0,
+      "explanation": "A quadrat samples plants within a known area, allowing counts or percentage cover to be estimated.",
+      "hint": "Plants stay in place, so choose equipment that defines a sample area.",
+      "visual": "quadrat",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-066",
+      "skill": "fieldwork",
+      "context": "Invertebrates",
+      "stem": "Which technique could be used to sample ground-dwelling invertebrates such as beetles?",
+      "options": [
+        "Colorimetry",
+        "A potometer",
+        "A centrifuge",
+        "A pitfall trap"
+      ],
+      "correct": 3,
+      "explanation": "Pitfall traps collect invertebrates moving over the soil surface.",
+      "hint": "Think about organisms moving along the ground.",
+      "visual": "litter",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-067",
+      "skill": "fieldwork",
+      "context": "Distribution along a slope",
+      "stem": "A student wants to sample the distribution of plants from the bottom to the top of a slope. Which method is most appropriate?",
+      "options": [
+        "Place every quadrat at the bottom",
+        "Use a transect line with samples at measured intervals",
+        "Measure only one plant in a classroom",
+        "Collect soil without noting distance"
+      ],
+      "correct": 1,
+      "explanation": "A transect records change along an environmental gradient using known positions.",
+      "hint": "Which method follows a line across changing conditions?",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-068",
+      "skill": "fieldwork",
+      "context": "Random sampling",
+      "stem": "To estimate average daisy abundance in a large, fairly uniform grass field, why might quadrats be placed at randomly selected positions?",
+      "options": [
+        "To ensure every quadrat contains daisies",
+        "To guarantee a particular conclusion",
+        "To reduce selection bias in sampling locations",
+        "To find only the highest daisy counts"
+      ],
+      "correct": 2,
+      "explanation": "Random positioning reduces the risk that a sampler selects convenient or unusually dense patches.",
+      "hint": "Try to avoid choosing places because of their expected result.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-069",
+      "skill": "fieldwork",
+      "context": "Abiotic measurement",
+      "stem": "Which is an abiotic factor that could be measured during fieldwork?",
+      "options": [
+        "Number of predators",
+        "Number of woodlice",
+        "Number of grass species",
+        "Soil pH"
+      ],
+      "correct": 3,
+      "explanation": "Soil pH is a non-living environmental condition; the other options involve living organisms.",
+      "hint": "Abiotic means a non-living condition.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-070",
+      "skill": "fieldwork",
+      "context": "Transect interpretation",
+      "stem": "Five equal-sized quadrats are placed 1–5 m from a path. What must be recorded to study a distribution pattern?",
+      "options": [
+        "Distance from the path and number of daisies per quadrat",
+        "Only the names of other flowers",
+        "Only the total number of pupils helping",
+        "Only the weather forecast"
+      ],
+      "correct": 0,
+      "explanation": "You need location along the transect and a measurement of abundance to relate distribution to distance.",
+      "hint": "Record both position and biological observation.",
+      "visual": "quadrat",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-071",
+      "skill": "fieldwork",
+      "context": "Pitfall trap ethics",
+      "stem": "A class sets pitfall traps to sample invertebrates. Which approach best reflects responsible sampling?",
+      "options": [
+        "Leave traps open indefinitely without checking",
+        "Follow school guidance, minimise harm and check traps appropriately",
+        "Add harmful chemicals to ensure more specimens",
+        "Keep protected animals without permission"
+      ],
+      "correct": 1,
+      "explanation": "Fieldwork should be supervised, risk assessed and conducted to minimise unnecessary harm to organisms.",
+      "hint": "Safety and welfare matter as well as data quality.",
+      "visual": "",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "fie-072",
+      "skill": "fieldwork",
+      "context": "Estimating abundance",
+      "stem": "A 1 m² quadrat contains eight daisies. How should the observation be reported?",
+      "options": [
+        "Eight daisies per kilogram",
+        "Eight daisies per minute",
+        "Eight daisies per square metre in the sampled quadrat",
+        "Eight daisies in the entire habitat"
+      ],
+      "correct": 2,
+      "explanation": "The quadrat represents a known area; one sample should not be described as the total for the whole habitat.",
+      "hint": "State the measured sample area and avoid extrapolating from one sample.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-073",
+      "skill": "evidence",
+      "context": "Comparing two extracts",
+      "stem": "Water produced a 0 mm clear zone, extract A 6 mm and extract B 14 mm. What is supported by the data?",
+      "options": [
+        "Extract B produced the largest clear zone in this test",
+        "Extract B is safe for use as a medicine in humans",
+        "Extract A kills all forms of bacteria",
+        "The experiment proves extract B will work in every habitat"
+      ],
+      "correct": 0,
+      "explanation": "The result supports a comparison of clear-zone diameters in this bacterial test, not clinical safety or universal effectiveness.",
+      "hint": "Stay close to what was measured.",
+      "visual": "test",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-074",
+      "skill": "evidence",
+      "context": "Small sample size",
+      "stem": "A survey of only six pupils finds an association between breakfast and concentration. What limitation matters?",
+      "options": [
+        "The sample proves the same result in all UK schools",
+        "The small sample may not represent the wider pupil population",
+        "All surveys must be experimental to record results",
+        "There is no possible relationship between food and concentration"
+      ],
+      "correct": 1,
+      "explanation": "A small sample may be unrepresentative, so generalising to a much larger population is uncertain.",
+      "hint": "Consider whether the participants represent everyone being discussed.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-075",
+      "skill": "evidence",
+      "context": "An unsupported explanation",
+      "stem": "Plant height falls at the highest fertiliser amount. Which claim is *not* established by height results alone?",
+      "options": [
+        "Mean height differed between fertiliser amounts",
+        "Height was 11 cm at 8 g",
+        "The exact cellular mechanism causing the drop in height has been identified",
+        "Mean height was greater at 4 g than at 0 g"
+      ],
+      "correct": 2,
+      "explanation": "Height data describe the pattern but do not identify which internal biological mechanism caused it.",
+      "hint": "Distinguish an observed pattern from its untested biological cause.",
+      "visual": "fertiliser",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-076",
+      "skill": "evidence",
+      "context": "Scientific reporting",
+      "stem": "Which is the strongest way to support a conclusion about plant growth?",
+      "options": [
+        "State that everyone knows the answer",
+        "Use a confident tone instead of measurements",
+        "Ignore results from other sources",
+        "Link the claim to relevant measurements and acknowledge any conflicting data"
+      ],
+      "correct": 3,
+      "explanation": "Conclusions should be grounded in evidence, including limitations and differences rather than selective reporting.",
+      "hint": "Look for evidence rather than authority or confidence.",
+      "visual": "",
+      "level": 2,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-077",
+      "skill": "evidence",
+      "context": "Two study results disagree",
+      "stem": "A pupil finds faster germination in light, while a published study reports no difference for the same species. What should the pupil do?",
+      "options": [
+        "Report the difference and consider methods and conditions that could explain it",
+        "Delete the published study",
+        "Claim the published study must be dishonest",
+        "Change the pupil’s results to match the published data"
+      ],
+      "correct": 0,
+      "explanation": "Responsible analysis discusses similarities and differences and possible explanations; it does not change or ignore evidence.",
+      "hint": "Scientists compare all available evidence, even when results disagree.",
+      "visual": "",
+      "level": 3,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-078",
+      "skill": "evidence",
+      "context": "Prediction from data",
+      "stem": "Pondweed bubble count decreases across distances from 10 to 40 cm. Which prediction is most reasonable if tested at 30 cm?",
+      "options": [
+        "More than 100 bubbles per minute",
+        "About 9 bubbles per minute",
+        "Zero bubbles at every distance",
+        "Exactly 28 bubbles per minute"
+      ],
+      "correct": 1,
+      "explanation": "The displayed value at 30 cm is 9 bubbles per minute, so this is a directly grounded expectation.",
+      "hint": "Locate 30 cm on the horizontal axis first.",
+      "visual": "pondweed",
+      "level": 1,
+      "pitfall": ""
+    },
+    {
+      "id": "evi-079",
+      "skill": "evidence",
+      "context": "Scientific claim",
+      "stem": "A student tests an extract against one bacterial species and finds a clear zone. What is a limitation of claiming it works against all bacteria?",
+      "options": [
+        "There was a measurable clear zone",
+        "A ruler was used for the measurement",
+        "Only one species was tested, so the conclusion cannot be generalised to all bacteria",
+        "The control disc had no extract"
+      ],
+      "correct": 2,
+      "explanation": "Results from one species cannot establish the same effect across all species without additional testing.",
+      "hint": "Consider the breadth of organisms actually investigated.",
+      "visual": "test",
+      "level": 2,
+      "pitfall": ""
+    }
+  ]
+}
